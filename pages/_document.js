@@ -16,7 +16,7 @@ export default function Document() {
             name="google-site-verification"
             content="uAsN7nCfnYQszC3rCTid53T7TSRjV1aotOCInjwu6lI"
           />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7DMKRQVGJ"></script>
+          {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7DMKRQVGJ"></script>
           <Script id="google-analytics" strategy="beforeInteractive">
             {`
                window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-G7DMKRQVGJ'); 
@@ -38,7 +38,7 @@ export default function Document() {
                 a.appendChild(r);
               })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
                 `}
-          </Script>
+          </Script> */}
         </Head>
         <body>
           <Main />
