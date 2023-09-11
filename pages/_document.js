@@ -16,6 +16,7 @@ export default function Document() {
             name="google-site-verification"
             content="uAsN7nCfnYQszC3rCTid53T7TSRjV1aotOCInjwu6lI"
           />
+        <meta name="robots" content="noindex, nofollow" />
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7DMKRQVGJ"></script>
           <Script id="google-analytics" strategy="beforeInteractive">
             {`
@@ -43,8 +44,8 @@ export default function Document() {
         <body>
           <Main />
           <NextScript />
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-          {/* <script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH" async></script> */}
+          {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> */}
+          <script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH" async></script>
         </body>
       </Html>
   )
