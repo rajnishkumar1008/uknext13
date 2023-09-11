@@ -18,12 +18,12 @@ export default function Document() {
           />
         <meta name="robots" content="noindex, nofollow" />
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7DMKRQVGJ"></script>
-          <Script id="google-analytics" strategy="defer" >
+          <Script id="google-analytics" strategy="beforeInteractive" async>
             {`
                window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-G7DMKRQVGJ'); 
                 `}
           </Script>
-          <Script id="hotjar" strategy="defer" >
+          <Script id="hotjar" strategy="beforeInteractive" async>
             {`
                (function (h, o, t, j, a, r) {
                 h.hj =
@@ -44,8 +44,8 @@ export default function Document() {
         <body>
           <Main />
           <NextScript />
-          <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"  strategy="defer" />
-          <Script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH"  strategy="defer" />
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous" async></script>
+          <script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH" async></script>
         </body>
       </Html>
   )
