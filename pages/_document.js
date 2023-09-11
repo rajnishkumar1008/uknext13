@@ -17,13 +17,13 @@ export default function Document() {
             content="uAsN7nCfnYQszC3rCTid53T7TSRjV1aotOCInjwu6lI"
           />
         <meta name="robots" content="noindex, nofollow" />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7DMKRQVGJ"></script>
-          <Script id="google-analytics" strategy="beforeInteractive" async>
+          <Script async trategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-G7DMKRQVGJ" />
+          <Script id="google-analytics" strategy="afterInteractive" async>
             {`
                window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-G7DMKRQVGJ'); 
                 `}
           </Script>
-          <Script id="hotjar" strategy="beforeInteractive" async>
+          <Script id="hotjar" strategy="afterInteractive" >
             {`
                (function (h, o, t, j, a, r) {
                 h.hj =
@@ -44,8 +44,8 @@ export default function Document() {
         <body>
           <Main />
           <NextScript />
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous" async></script>
-          <script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH" async></script>
+          <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"  async strategy="afterInteractive" />
+          <Script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH" />
         </body>
       </Html>
   )
